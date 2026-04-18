@@ -5,5 +5,5 @@ void main(){
   double totalSalaryInKHR = salary * exchangeRate;
   print("Total salary in khmer riel: $totalSalaryInKHR");
   final double bonusSalary;
-  bonusSalary=500.50;
+  //bonusSalary=500.50;
 }

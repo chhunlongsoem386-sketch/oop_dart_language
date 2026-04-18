@@ -1,3 +1,5 @@
+import 'model/employee.dart';
+
 void main(){
   print("Hello World");
   String gender = 'Male';
@@ -15,4 +17,15 @@ void main(){
   ///
   ///
   ///
+  // create new employee from class
+  Employee sok = new Employee();
+  Employee metha = new Employee.named("Metha", "Sok");
+
+  Employee nika = new Employee.factory(
+    id: 1,
+    firstName: "Sok",
+    lastName: "Nik",
+    age: 28,
+    gender: "Female"
+  );
 }
